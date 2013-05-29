@@ -1,0 +1,7 @@
+{
+  "name": "etsyjs",
+  "description": "Etsy Bindings for Node.js",
+  "dependencies": {
+    "escodegen": "~0.0.22"
+  }
+}
