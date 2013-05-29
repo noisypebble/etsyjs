@@ -1,0 +1,127 @@
+{
+    "type": "Program",
+    "body": [
+        {
+            "type": "VariableDeclaration",
+            "declarations": [
+                {
+                    "type": "VariableDeclarator",
+                    "id": {
+                        "type": "Identifier",
+                        "name": "Cart"
+                    },
+                    "init": {
+                        "type": "FunctionExpression",
+                        "id": null,
+                        "params": [],
+                        "defaults": [],
+                        "body": {
+                            "type": "BlockStatement",
+                            "body": []
+                        },
+                        "rest": null,
+                        "generator": false,
+                        "expression": false
+                    }
+                }
+            ],
+            "kind": "var"
+        },
+        {
+            "type": "ExpressionStatement",
+            "expression": {
+                "type": "AssignmentExpression",
+                "operator": "=",
+                "left": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                            "type": "Identifier",
+                            "name": "Cart"
+                        },
+                        "property": {
+                            "type": "Identifier",
+                            "name": "prototype"
+                        }
+                    },
+                    "property": {
+                        "type": "Identifier",
+                        "name": "getCart"
+                    }
+                },
+                "right": {
+                    "type": "FunctionExpression",
+                    "id": null,
+                    "params": [],
+                    "defaults": [],
+                    "body": {
+                        "type": "BlockStatement",
+                        "body": [
+                            {
+                                "type": "ReturnStatement",
+                                "argument": {
+                                    "type": "Literal",
+                                    "value": "cart"
+                                }
+                            }
+                        ]
+                    },
+                    "rest": null,
+                    "generator": false,
+                    "expression": false
+                }
+            }
+        },
+        {
+            "type": "ExpressionStatement",
+            "expression": {
+                "type": "AssignmentExpression",
+                "operator": "=",
+                "left": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                            "type": "Identifier",
+                            "name": "Cart"
+                        },
+                        "property": {
+                            "type": "Identifier",
+                            "name": "prototype"
+                        }
+                    },
+                    "property": {
+                        "type": "Identifier",
+                        "name": "setCart"
+                    }
+                },
+                "right": {
+                    "type": "FunctionExpression",
+                    "id": null,
+                    "params": [],
+                    "defaults": [],
+                    "body": {
+                        "type": "BlockStatement",
+                        "body": [
+                            {
+                                "type": "ReturnStatement",
+                                "argument": {
+                                    "type": "Literal",
+                                    "value": "cart"
+                                }
+                            }
+                        ]
+                    },
+                    "rest": null,
+                    "generator": false,
+                    "expression": false
+                }
+            }
+        }
+    ]
+}
